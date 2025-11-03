@@ -18,11 +18,11 @@ if (!isNaN(parolaUtente) || parolaUtente === "") {
   alert("Inserisci una parola");
 } else {
   const risultato = verificaPalindroma(parolaUtente);
+  let messaggio = "Non è palindroma";
   if (risultato) {
-    console.log("Parola Palindroma");
-  } else {
-    console.log("Non è palindroma");
+    messaggio = "Parola palindroma";
   }
+  console.log(messaggio);
 }
 
 function verificaPalindroma(parola) {
