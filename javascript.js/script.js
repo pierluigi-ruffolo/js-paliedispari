@@ -3,11 +3,6 @@ Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma 
 (NON usare split, reverse e join) */
 
-// chiediamo all'utente una parola
-// creiamo una funzione per capire se la parola è palindroma
-// parametro: parola inserita dall'utente
-// return: String;
-
 /* 
 Pari e Dispari
 L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
